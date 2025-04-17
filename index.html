@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Review Rating Predictor</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <div class="prediction-card">
+            <h1>Laptop Review Rating Predictor</h1>
+            <div class="input-section">
+                <textarea id="reviewInput" placeholder="Enter your laptop review here..."></textarea>
+                <button onclick="predictRating()" class="predict-btn">Predict Rating</button>
+            </div>
+            <div class="result-section" id="resultSection">
+                <div class="rating-display">
+                    <span id="ratingValue">0.0</span>
+                    <span class="max-rating">/5.0</span>
+                </div>
+                <div class="stars" id="starsDisplay"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
